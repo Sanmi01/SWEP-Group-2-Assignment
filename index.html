@@ -16,6 +16,16 @@
             font-family: 'Poppins', sans-serif;
         }
 
+        .links {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(300px, 0.65fr));
+          grid-template-rows: auto;
+          gap: 1rem;
+          place-content: center;
+        }
+
+
+
       li {
           list-style: decimal-leading-zero;
           margin-top: 30px;
@@ -61,7 +71,7 @@
           <li><b>CSC/2018/093 - <span>Lasisi-akeem Abdurrahman Alabi</b></span></li>
           <li><b>CSC/2018/095 - <span>Lawal Ayobami Salim</b></span></li>
       </ol>
-      <div>
+      <div class="links">
         <a href="https://swep-group-one.netlify.app" class="btn btn-info" role="button">Group 1</a>
         <a href="https://sanmi01.github.io/SWEP-Group-2-Assignment" class="btn btn-info" role="button">Group 2</a>
         <a href="https://group-three-swep.netlify.app" class="btn btn-info" role="button">Group 3</a>
